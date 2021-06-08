@@ -1,0 +1,48 @@
+ /* main body */
+ @media (max-width:599px){
+    #body{
+        /*background: url("../images/backgroundSmall.jpeg") no-repeat center; */
+         background-image: linear-gradient(45deg, rgb(99, 236, 19), red );
+    }
+}
+@media (min-width:600px){
+#body {
+    background: url("../images/background.jpeg") no-repeat center;
+    /*background-image: linear-gradient(45deg, rgb(99, 236, 19), red ); */
+}
+}
+/* body title */
+#body p{
+    font-size: 2.0em;
+    padding: 100px;
+   text-align: center;
+   text-decoration: silver;
+}
+ #formTable {
+   
+   text-align: center;
+}
+#formTable div{
+   
+    color:goldenrod;
+   
+ }
+ /* alliging the input value box in the center and give padding */ 
+.box {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+ footer{
+     background-color: rgb(38, 38, 39);
+     
+ }
+#formTable a{
+     font-size: medium;
+     color: blueviolet;
+}
+
+/* address field - fixing mail id box size*/
+#contactAddress{
+  width:205px;
+  height:30px;
+}
