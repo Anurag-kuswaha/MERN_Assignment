@@ -1,0 +1,85 @@
+#body{
+    background-color: aqua;
+}
+
+/* logo of the website */
+
+#logo {
+   padding: 10px 20px 10px 30px;
+}
+
+/* Name of the Website */
+
+#hotelName p{
+   font-size: 3em;
+   padding: 50px 0px 0px 0px;
+   font-weight: bolder;
+   color: saddlebrown;
+}
+
+/* header search bar on the  Website */
+
+#headerSerach {
+    padding: 100px 100px 10px 30px;
+}
+
+#carousel {
+    background-color:wheat;
+    width:fit-content;
+    height: fit-content;
+    padding: 30px 20% 30px 20%;
+   
+}
+.carousel-item img {
+    border-radius: 50px 10px 150px 10px;
+}
+
+/* align the product at the center of each box */
+
+.product  {
+  
+    width:400px;
+    height:300px;
+
+    align-content: center;
+} 
+
+/* hover effect on the product box " */
+
+.product :hover{
+      background-color: chocolate;
+      box-shadow: 0 50px 25px 1px black;
+}
+.product span img {
+    
+    border-radius: 15px 15px 0px 0px;
+    width:400px;
+    height:300px;
+    box-align: center;
+}
+
+/* text of the product    */
+
+.proudctName {
+    position: relative;
+
+	width:100%;
+	text-align:center;
+	font-size:1.5em;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    /*font-style: italic; */
+	text-transform: uppercase;
+	background-color: #000;
+	color:#fff;
+	opacity: 0.8;
+}
+#productPage {
+ padding-bottom: 100px;
+}
+
+#footerPanel p {
+    padding: 150px;
+    text-align:center;
+    font-size: 1.5em;
+    color:blanchedalmond
+}
